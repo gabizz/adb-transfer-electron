@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- 
+    A basic CSP for development. For production, you should aim to remove 'unsafe-eval' and 'unsafe-inline'.
+    'unsafe-eval' might be needed for Vite's HMR. 'unsafe-inline' might be needed for styles.
+  -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' atom-video:; connect-src 'self' http://localhost:5173 ws://localhost:5173;">
+  <title>ADB File Transfer</title>
+  <style>
+    /* Basic Modal Styling */
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; } /* Keep basic body style */
+    #root { height: 100vh; display: flex; flex-direction: column; } /* Keep root style */
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <!-- 
+    Vite (or your bundler) will process renderer.jsx and inject the appropriate script.
+    For Vite, this is typically <script type="module" src="/src/renderer.jsx"></script> or similar,
+    depending on your project structure and vite.config.js.
+    Using "/renderer.jsx" if renderer.jsx is at the root of your source directory (e.g. /src or /)
+  -->
+  <script type="module" src="/renderer.jsx"></script> 
+</body>
+</html>
