@@ -49,10 +49,8 @@ If you are on Windows and your device is not recognized by ADB (e.g., it doesn't
 
 ### Option 1: From Release (Recommended for most users)
 
-If pre-built releases are available:
-
-1.  Go to the "Releases" page of this project's repository.
-2.  Download the appropriate file for your operating system:
+1.  Go to [https://signportal.ro/downloads](https://signportal.ro/downloads).
+2.  Download the appropriate file for your operating system from the project's section:
     *   `.exe` for Windows
     *   `.dmg` for macOS
 3.  Install and run the application like any other desktop app.
@@ -131,4 +129,3 @@ To create a distributable package of the application:
 ---
 
 *This README assumes standard script names like `dev`, `build:renderer`, and `package` in your `package.json`. Adjust these commands if your project uses different script names.*
-
