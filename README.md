@@ -49,7 +49,7 @@ If you are on Windows and your device is not recognized by ADB (e.g., it doesn't
 
 ### Option 1: From Release (Recommended for most users)
 
-1.  Go to [https://signportal.ro/downloads](https://signportal.ro/downloads).
+1.  Go to [https://signportal.ro/downloads](https://signportal.ro/downloads/index.html).
 2.  Download the appropriate file for your operating system from the project's section:
     *   `.exe` for Windows
     *   `.dmg` for macOS
