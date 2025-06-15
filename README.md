@@ -133,7 +133,3 @@ To create a distributable package of the application:
     *   If an "Upload" button exists, click it.
     *   Select the file from your computer.
     *   The file will be pushed to the current `remotePath` on the device. If `remotePath` is a directory, the file will be placed inside it.
-
----
-
-*This README assumes standard script names like `dev`, `build:renderer`, and `package` in your `package.json`. Adjust these commands if your project uses different script names.*
