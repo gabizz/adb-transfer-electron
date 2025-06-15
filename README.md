@@ -108,7 +108,7 @@ To create a distributable package of the application:
     yarn build:win
     yarn build:mac
 ```
-    that should run all the necessary steps for obtaining an installation "kit".
+that should run all the necessary steps for obtaining an installation "kit".
 
 This will generate installable files (e.g., `.exe`, `.dmg`) in the `release` folder.
 
