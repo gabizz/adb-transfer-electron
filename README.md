@@ -59,7 +59,7 @@ If you are on Windows and your device is not recognized by ADB (e.g., it doesn't
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/gabizz/adb-transfer-electron
     cd electron-adb
     ```
 2.  **Install dependencies:**
@@ -102,6 +102,14 @@ To create a distributable package of the application:
     # or npm run package
     # or specific commands like `yarn dist`, `electron-builder --win --mac`, etc.
     ```
+
+    For your convenience, in package,json there are already 2 scripts already defined:
+    ```bash
+    yarn build:win
+    yarn build:mac
+```
+    that should run all the necessary steps for obtaining an installation "kit".
+    
     This will generate installable files (e.g., `.exe`, `.dmg`) in a `dist` or `release` folder.
 
 ## How to Use the Application
